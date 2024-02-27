@@ -382,3 +382,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
