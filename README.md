@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Next.js Starter Template
 
-## Getting Started
+Este template de Next.js está diseñado para acelerar el desarrollo de tus proyectos, incorporando configuraciones esenciales y herramientas de desarrollo desde el comienzo. Ideal para proyectos que buscan mantener un alto estándar de calidad y eficiencia en el desarrollo.
 
-First, run the development server:
+## 🌟 Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Configuración Estándar**: EditorConfig, ESLint, y Prettier configurados para garantizar un código limpio y consistente.
+- **Testing**: Integración con Vitest para tests unitarios, de integración y E2E, incluyendo ejemplos para cada uno.
+- **Desarrollo Eficiente**: Scripts personalizados para desarrollo, construcción, y despliegue.
+- **Estilos Modernos**: Configuración de TailwindCSS para un diseño rápido y responsivo.
+- **Herramientas de Calidad de Código**: Precommit y Prepush hooks para mantener la calidad del código antes de cada commit y push.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Cómo empezar
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Para comenzar a utilizar este template en tu proyecto, sigue los siguientes pasos:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clona este repositorio usando Git:
 
-## Learn More
+    ```bash
+    git clone https://tu-repositorio.com/path/a/nextjs-template.git tu-proyecto
+    cd tu-proyecto
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Instala las dependencias del proyecto:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```bash
+    npm install
+    # o si prefieres usar yarn
+    yarn install
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Inicia el servidor de desarrollo:
 
-## Deploy on Vercel
+    ```bash
+    npm run dev
+    # o con yarn
+    yarn dev
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+¡Eso es todo! Ahora puedes comenzar a desarrollar tu aplicación con Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📚 Comandos disponibles
+
+- `npm run dev`: Inicia el servidor de desarrollo de Next.js.
+- `npm run build`: Construye la aplicación para producción.
+- `npm run start`: Inicia el servidor de producción.
+- `npm run lint`: Ejecuta ESLint para identificar problemas en el código.
+- `npm run lint:fix`: Ejecuta ESLint y corrige automáticamente los problemas detectados.
+- `npm run test`: Ejecuta todos los tests con Vitest.
+- `npm run test:watch`: Ejecuta Vitest en modo observación.
+- `npm run test:coverage`: Genera un reporte de cobertura de código con Vitest.
+- `npm run test:e2e`: Ejecuta tests E2E con Playwright.
+
+## 🛠️ Tecnologías y herramientas
+
+- Next.js 14.1.0
+- React 18
+- ESLint, Prettier, EditorConfig para asegurar calidad de código
+- Vitest y Playwright para testing
+- TailwindCSS para estilos
+
+## 🤝 Contribuir
+
+Si tienes sugerencias para mejorar este template, ¡tus contribuciones son bienvenidas! Por favor, abre un issue o envía un pull request.
+
+## 📝 Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+
+---
+
+Hecho con ❤️ por [TuNombre](https://tu-sitio-web.com)
